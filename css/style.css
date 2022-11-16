@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+}
+header {background-color: #282829;
+           height: 80px;
+           text-align: right;
+           margin: auto;
+           position:sticky;   
+           top: 0;
+           z-index: 3;
+        }
+.menu {
+        list-style: none;
+        padding-top: 50px;
+        background: #282829;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+            }
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding: 0;
+        display: block;
+        margin-right: 5px;
+        font-family: 'Montserrat', sans-serif;
+
+     }
+.menu li a:hover{
+                 color: #ffc24794;
+}
+.menu li{ display: inline-block;
+    text-align: right;
+  }
+
+.principal {background-color: #FAEBCD;
+            text-align: center;}
+
+.logo {
+       width: 60px;
+       height: 60px;
+       display: block;
+       position: absolute;
+       padding: 5px; }
+
+.logomain {width: 25%;
+           margin: 10px;
+           position: relative;
+           display: inline-block;
+           }
+
+.logomain img {width: 50%;}
+
+.logomain h1 {font-size: 2rem;}
+
+div h1 {font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;}
+
+.box{
+    width: 70%; 
+    display:inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: #ffc24794;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+   }
+   .historia{
+    width: 50%; 
+    display:inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: #ffc24794;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+       }
+/*El p va sobre un fondo semitransparente sobre la imagen*/
+
+.seccioncuerpo { margin: 5px;
+                 display: inline-block;
+                 width: 100%;
+                 height: 200px;
+                 padding-top: 10px;
+                 margin-bottom: 40px;
+                 text-decoration: none;
+                }
+.seccioncuerpo a { text-decoration: none;
+
+}
+
+ .fotos         { width: 150px;
+                  height: 150px;
+                  border-radius: 10px;
+                  
+                }
+.tarjetas { width: 200px;
+            color: black;
+           display: inline-block;
+           text-align: center;
+           font-size: 1rem;
+           margin-right: 10px;
+           text-decoration: none;
+           font-family: 'Montserrat', sans-serif;
+            }
+.galeria {height: 400px;
+          width: 180px;
+          margin-top: 20px;}
+
+h2 {margin-top: 5px;}
+
+     
+.seccionpie {background-color: #282829;
+             text-align: center;
+            }
+.seccionpie a {   color: white;
+                  text-decoration: none;
+                  font-family: 'Montserrat', sans-serif;
+              }
