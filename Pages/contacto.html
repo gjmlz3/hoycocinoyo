@@ -7,74 +7,119 @@
     <title>Historia</title>
     <link rel="shortcut icon" href="../Assets/Images/LogoNegro.png">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
     <header>
-        <a href="../index.html" >
-        <img class="logo" src  ="../assets/images/LogoNegro.png" alt="LogoNegro">
-        </a>
-    </div>     
-    <div> 
-        <nav>
-           <ul class="menu">
-             <li><a href="../index.html">Inicio</a></li>
-             <li><a href="./historia.html">Historia</a></li>
-             <li><a href="./menu.html">Menu</a></li>
-             <li><a href="./faq.html">Preguntas Frecuentes</a></li>
-             <li><a href="./contacto.html">Contacto</a></li>
-           </ul>
-    </div>
-        </nav>
-    </header>
-    <main class="principal">
-        <section class="seccioncuerpo">
-          <div class="logomain"> 
-             <img src="../Assets/Images/LogoNegro.png" alt="">
-             <h1>Contacto</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../Assets/Images/LogoNegro.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./faq.html">Preguntas Frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+             </ul>
           </div>
-          </section>
-       <section>
-       <div>
-        <form action="validar.html"> 
-          <label for="nombre"> Nombre Completo </label>
-          <input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre y Apellido..." minlength="3" maxlength="50" required autofocus autocomplete="off"> 
-        </div> 
-        <div>
-          <label for="telefono"> Telefono </label>
-          <input id ="telefono" name="telefono" type="number" placeholder="Numero de telefono" minlength="3" maxlength="15" required autofocus autocomplete="off"> 
-       </div>
-       <div>
-        <label for="email"> Email </label>
-        <input id ="email" name="email" type="email" placeholder="Mail" minlength="3" maxlength="50" required autofocus autocomplete="off"> 
-     </div>
-     <fieldset>
-      <legend>Contanos tu experiencia con nuestro servicio</legend>
-      <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese un Comentario"></textarea>
-      </fieldset>
-      <fieldset>
-        <input id="enviar" type="submit" value="Enviar">
-        <input id="reset" type="reset" value="Limpiar">
-      </fieldset>
-      </section>  
-      <section>
-        <h2>Encontranos</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5681.6035468858145!2d-57.54130373521842!3d-38.024317013354064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1666898219232!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section> 
-    </main>
-    <footer class="seccionpie">
-        <div>  
-        <a href="../index.html">Inicio</a>
-        <a href="./faq.html">FAQS</a>
         </div>
-        <div class=>
-          <a href="http://www.instagram.com/hoycocinoyomdq" target="_blank" >
-          <img src="../Assets/Images/Instagram.png" height="20" width="20"  alt=""></a>
-          <a href="http://www.facebook.com/hoycocinoyomdq" target="_blank">
-          <img src="../Assets/Images/Facebook.png" height="20" width="20"  alt=""></a>
-          <a href="https://wa.me/message/FKBSXNSF2KSNI1" target="_blank">
-          <img src="../Assets/Images/whatsapp.png" height="20" width="20" alt=""></a>
-        </div> 
-        </footer>
-
+      </nav>
+    </header>
+    <main class="MainFlex">
+      <div class= "divVideoFondo">
+        <video autoplay muted loop class="video">
+          <source src="../Assets/Videos/videoPresentacion.mp4" type="video/mp4">
+      </div>    
+        </video>
+          <section class="container">
+            <div class="row">
+                <div class="col-md-12 formCenter">
+                    <div class="well well-sm">
+                      <form class="form-horizontal" method="post">
+                          <fieldset>
+                              <legend class="text-center fuenteLogo">Comunicate con nosotros</legend>
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user iconForm"></i></span>
+                                  <div class="col-md-8">
+                                      <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user iconForm"></i></span>
+                                  <div class="col-md-8">
+                                      <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa-solid fa-envelope iconForm"></i></i></span>
+                                  <div class="col-md-8">
+                                      <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square iconForm"></i></span>
+                                  <div class="col-md-8">
+                                      <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa-solid fa-pencil iconForm"></i></i></span>
+                                  <div class="col-md-8">
+                                      <textarea class="form-control" id="message" name="message" placeholder="Dejanos tu mensaje aqui. Pronto estaremos en contacto" rows="7"></textarea>
+                                  </div>
+                              </div>
+      
+                              <div class="form-group">
+                                  <div class="col-md-12">
+                                      <button type="submit" class="boton btn-lg botonPrimario ">Enviar</button>
+                                  </div>
+                              </div>
+                          </fieldset>
+                      </form>
+                  </div>
+              </div>
+          </div>
+        </section>
+      
+    </main>
+    <footer class="container-fluid bgNegro p-5 mb-0">
+      <div class="float-end ">
+      <a href="#" class="LinkTextoFooter">Back to top</a>
+      <a href="../Pages/faq.html" class="LinkTextoFooter">FAQS</a>
+     </div>
+     <div>
+       <a href="http://www.instagram.com/hoycocinoyomdq" target="_blank" >
+         <i class="fa-brands fa-beat fa-instagram iconClass"></i></a>
+       <a href="http://www.facebook.com/hoycocinoyomdq" target="_blank">
+         <i class="fa-brands fa-beat fa-facebook iconClass"></i></a>
+       <a href="https://wa.me/message/FKBSXNSF2KSNI1" target="_blank">
+         <i class="fa-brands fa-beat fa-whatsapp iconClass"></i></a>
+       <a href="https://open.spotify.com/playlist/2gjrd7dzvPAbYUDSMV18zq?si=b79a9ce8a8174ee1" target="_blank">
+         <i class="fa-brands fa-beat fa-spotify iconClass"></i></a>     
+     </div>
+   </footer>
+ 
+ <script src="../Js/bootstrap.bundle.min.js" ></script>
+ <script src="../Js/all.min.js"></script>
 </body>
 </html>
